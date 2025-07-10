@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 16,22,4,10 * * *" # At 12PM UTC+8
+    - cron: "0 16,22,4,10 * * *" # At 12PM UTC+8，UTC+8时区每6小时更新：0点、6点、12点、18点​
   workflow_dispatch:
 
 jobs:
